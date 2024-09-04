@@ -1,0 +1,87 @@
+*
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body
+{
+    background-color: #e2d3ca;
+    color: #432c1e;
+}
+
+.title
+{
+    display: block;
+    text-align: center;
+}
+
+#title1
+{
+    font-size: 50px;
+}
+
+#title2
+{
+    font-size: 40px;
+}
+
+#title3
+{
+    font-size: 25px;
+}
+
+ul>li
+{
+    list-style: none;
+}
+
+.description > p,
+.description li
+{
+    font-size: 20px;
+    margin: auto 650px;
+    text-align: center;
+    padding: 20px;
+    word-spacing: 2px;
+}
+
+.recipes
+{
+    list-style-type: none;   
+    overflow: hidden;
+    padding: 0px;
+    /* display: inline; */
+}
+.recipes > li
+{
+    float: left;
+}
+
+.menu
+{
+    margin: auto;
+}
+
+.menu a
+{
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #a57a60ea;
+}
+
+.menu a:hover
+{
+    background-color: #594336;
+}
+
+.imgRecipe
+{
+    display: block;
+    height: auto;
+    width: 700px;
+    margin: 0px auto;
+    border-style: double;
+    border-width: 10px;
+    border-color: #594336;
+}

@@ -1,27 +1,47 @@
 *
+::after
+::before
+{
+    box-sizing: border-box;
+}
+
+*
 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
 }
 body
 {
-    background-color: #e2d3ca;
+    background-color: #e4c5b0;
     color: #432c1e;
+}
+
+/* div
+{
+    border: 1px solid red;
+} */
+
+.card
+{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #f0b68f;
 }
 
 .title
 {
-    display: block;
+    color: #362011;
     text-align: center;
 }
 
 #title1
 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #title2
 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #title3
@@ -29,50 +49,58 @@ body
     font-size: 25px;
 }
 
-ul>li
+.menu ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+.menu
+{  
+    width: 800px;
+    margin: 20px 0;
+}
+
+ul li
 {
     list-style: none;
 }
 
-.description > p,
-.description li
+.menu li
 {
-    font-size: 20px;
-    margin: auto 650px;
-    text-align: center;
-    padding: 20px;
-    word-spacing: 2px;
-}
-
-.recipes
-{
-    list-style-type: none;   
-    overflow: hidden;
-    padding: 0px;
-    display: inline;
-}
-.recipes > li
-{
-    float: left;
-}
-
-.menu
-{
-    margin: auto;
+    float: left;   
 }
 
 .menu a
 {
-    text-decoration: none;
-    padding: 20px 40px;
+    text-align: center;
     color: #ffffff;
-    font-size: 20px;
-    background-color: #a57a60ea;
+    background-color: #cf9978;
+    padding: 10px 8px
 }
-
 .menu a:hover
 {
     background-color: #594336;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.description p,
+.description li
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    word-spacing: 2px;
+}
+
+.description .title
+{
+    font-size: 25px;
+    margin: 10px;
 }
 
 .imgRecipe
@@ -80,7 +108,7 @@ ul>li
     display: block;
     height: auto;
     width: 700px;
-    margin: 0px auto;
+    margin: 10px auto;
     border-style: double;
     border-width: 10px;
     border-color: #594336;
